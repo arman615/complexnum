@@ -4,7 +4,7 @@ private:
     int imag;
 
 public:
-    ComplexNumber() : real(0.0), imag(0.0) {}
+    ComplexNumber() : real(0), imag(0) {}
 
     ComplexNumber(int r, int i) : real(r), imag(i) {}
 
